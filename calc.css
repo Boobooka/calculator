@@ -1,0 +1,89 @@
+button {
+  margin: 0px;
+  padding: 1px 6px;
+  height: 50px;
+  width: 60px;
+  font-size: 36px;
+}
+
+@font-face {
+  font-family: "digital";
+  src: url("font/digital.ttf");
+}
+
+#container {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  position: absolute;
+  font-size: 35px;
+  border: 2px solid silver;
+  border-radius: 5px;
+  background: #f0f0f0;
+  padding: 5px;
+}
+
+#head {
+  position: relative;
+  float: left;
+  clear: both;
+}
+
+#body{
+  position: relative;
+  float: left;
+  clear: both;
+  width: 100%;
+}
+
+#specOpContainer{
+  position: relative;
+  width: 100%;
+  clear: both;
+  text-align: middle;
+  margin-bottom: 5px;
+}
+
+#specOpContainer button {
+  font-size: 18px;
+  width: 55px;
+  height: 30px;
+  margin: 1px 3px;
+}
+
+#numContainer {
+  position: relative;
+  float: left;
+}
+
+#opContainer {
+  position: relative;
+  float: right;
+}
+
+#screen {
+  position: relative;
+  float: left;
+  font-family: "digital";
+  font-size: 42px;
+  width: 9.5em;
+  height: 1em;
+  background-color: #C7D0A1;
+  margin: 1px;
+  padding:2px 6px;
+  border: 2px solid;
+  border-color: black #999 #999 black;
+  text-align: right;
+  line-height: 1em;
+}
+
+.numbers {
+  width: 2em;
+}
+
+.ops {
+  width: 2.5em;
+}
